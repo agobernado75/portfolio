@@ -1,6 +1,5 @@
 import { IconType } from "react-icons";
 import { IconEmail, IconGithub, IconLinkedin, IconX, IconYoutube } from "./assets";
-import avatar from '../assets/images/avatar.jpg';
 import elpinar from '../assets/images/elpinar.png';  
 import automovil from '../assets/images/automovil.png';
 import sice from '../assets/images/sice.png'; 

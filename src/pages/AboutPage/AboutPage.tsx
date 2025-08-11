@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { avatarIcon, yo } from '../../utils/assets';
+import { yo } from '../../utils/assets';
 import { iconsList } from '../../utils/data';
 import { IconLink, TagLink } from '../../components';
 
