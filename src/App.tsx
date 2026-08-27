@@ -8,11 +8,11 @@ const App: React.FC<{}> = () => {
     <Router>
       <Routes>
         {/* Página de inicio sin Layout */}
-        <Route path="/portfolio-pink/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         
        
         {/* Resto de las páginas con Layout */}
-        <Route path="/portfolio-pink/*" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route path="about" element={<About />} />
           <Route path="blog" element={<Blog />} />
         

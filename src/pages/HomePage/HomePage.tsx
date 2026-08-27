@@ -31,10 +31,10 @@ const HomePage:React.FC<{}> = () => {
            
             </div>
             <div className='w-[100%]  mt-4 flex justify-center gap-2'>
-              <TagLink active={false} href='/portfolio-pink/about' label='Sobre mi' isRoute={true} />
-              <TagLink active={false} href='/portfolio-pink/blog' label='Blog' isRoute={true} />
-              <TagLink active={false} href='/portfolio-pink/portfolio' label='Portfolio' isRoute={true} />
-              <TagLink active={false} href='/portfolio-pink/publications' label='Mi Formacion' isRoute={true} />
+              <TagLink active={false} href='/about' label='Sobre mi' isRoute={true} />
+              <TagLink active={false} href='/blog' label='Blog' isRoute={true} />
+              <TagLink active={false} href='/portfolio' label='Portfolio' isRoute={true} />
+              <TagLink active={false} href='/publications' label='Mi Formacion' isRoute={true} />
             </div>
             <div className='w-[100%] h-[200px]| flex justify-center gap-2 mt-2'>
             {

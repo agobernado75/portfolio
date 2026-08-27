@@ -78,6 +78,62 @@ export const tagsBlog:string[] = [
 
 export const blogs: BlogType[] = [
     {
+        title: "Uso Seguro de la Radial (Amoladora Angular)",
+        id: "uso-radial",
+        date: "Agosto 27, 2026",
+        description: "La amoladora angular o radial es una de las herramientas eléctricas más utilizadas y, a la vez, una de las que más accidentes graves provoca. Conocer sus riesgos y aplicar las medidas preventivas es imprescindible antes de cada uso.",
+        content: `
+La amoladora angular o **radial** es una de las herramientas eléctricas más utilizadas en talleres, obras e industria; también es una de las que más accidentes graves registra. Girando a velocidades que pueden superar los 10.000 rpm, un descuido puede convertirse en una lesión grave o, en el peor de los casos, en un accidente mortal. Por eso es imprescindible conocer sus riesgos y aplicar las medidas preventivas antes de cada uso.
+
+## Principales Riesgos de la Radial
+
+- **Cortes y amputaciones** por contacto con el disco en movimiento.
+- **Proyecciones de partículas y fragmentos** por rotura o desprendimiento del disco.
+- **Contacto eléctrico** por máquinas o cables en mal estado, especialmente en entornos húmedos.
+- **Incendio o explosión** por chispas sobre polvo o materiales inflamables.
+- **Inhalación de polvo y partículas**, que puede provocar enfermedades respiratorias.
+- **Daños por ruido y vibraciones**, sobre todo con un uso prolongado.
+
+## Cómo Evitar los Accidentes
+
+### 1. Elige y comprueba el disco
+- El disco debe ser del diámetro y tipo adecuados para la máquina.
+- Verifica que la **velocidad máxima** indicada en el disco es igual o superior a la de la radial.
+- Inspecciona el disco antes de montarlo: si tiene grietas, mellas o ha superado su **fecha de caducidad**, no lo utilices.
+- No modifiques el agujero del disco ni lo fuerces sobre el eje.
+
+### 2. Revisa la máquina
+- El **protector** debe estar siempre colocado y correctamente ajustado.
+- La **empuñadura lateral** montada: la radial nunca se maneja con una sola mano.
+- Cable y enchufe en buen estado, sin cortes ni empalmes improvisados.
+- El interruptor debe funcionar correctamente, incluido el sistema de bloqueo.
+
+### 3. Usa los EPIs adecuados
+- **Pantalla facial o gafas de protección** frente a las partículas proyectadas.
+- **Guantes de seguridad** y, si el trabajo lo requiere, no de piel hasta el codo.
+- **Protectores auditivos**, ya que la radial supera fácilmente los 85 dB.
+- **Mascarilla** de protección respiratoria contra el polvo.
+- Ropa de trabajo ajustada, sin mangas anchas ni elementos colgantes, y **calzado de seguridad**.
+
+### 4. Trabaja con técnica segura
+- Sujeta la radial con las **dos manos** y mantén una postura estable.
+- Deja que el disco alcance su velocidad de giro antes de empezar a cortar.
+- No fuerces la herramienta ni hagas palanca: deja que el disco trabaje.
+- Sujeta la pieza con garras o tornillo de banco, nunca con la mano.
+- No frenes el disco con la mano ni con la pieza: espera a que se detenga solo.
+- Trabaja en zonas ventiladas y aparta los materiales inflamables del área de chispas.
+- **Desenchufa siempre** la radial para cambiar el disco y retíralo al terminar.
+- Evita trabajar con polvo acumulado y mantén el área de trabajo limpia y ordenada.
+
+## Conclusión
+
+La radial es una herramienta versátil y muy productiva, pero no admite improvisación. La mayoría de los accidentes se producen por el mal estado del disco, la retirada del protector o un uso inadecuado. Con la máquina en buen estado, el disco correcto y una actitud prudente, el trabajo con radial puede ser eficaz y seguro.
+        `,
+        tags: ["seguridad", "industria"],
+        imagen: "https://tse2.mm.bing.net/th/id/OIP.lP4CS51xpnTXQQIbU-zeJAHaE8?r=0&pid=Api&P=0&h=180",
+    },
+
+    {
         title: `Seguridad Laboral en Entornos Industriales del Sector del Automóvil`,
         id: "seguridad-automocion",
         date: "Agosto 2, 2025",
@@ -397,7 +453,7 @@ logo:ficosa,
 
 export const publications: PublicationsType[] = [
     {
-        link: "TITULACIÓN INGENIERÍA QUÍMICA. ESPECIALIDAD CONTROL E INSTRUMENTACIÓN EN PETROQUÍMICA (Junio, 2022)",
+        link: "TITULACIÓN INGENIERÍA QUÍMICA. ESPECIALIDAD CONTROL E INSTRUMENTACIÓN EN PETROQUÍMICA (Junio, 2002)",
         content: "Facultad de Ciencias",
         duracion: "5 años"
        

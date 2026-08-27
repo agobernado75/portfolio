@@ -1,4 +1,4 @@
-import avatarIcon from '../assets/images/avatar.jpg'
+
 import avatarYo from '../assets/images/yo.jpeg'
 import yo from '../assets/images/yomismo.jpeg'
 
@@ -18,7 +18,7 @@ export {
 }
 
 export {
-    avatarIcon,
+   
     avatarYo,
     yo
     

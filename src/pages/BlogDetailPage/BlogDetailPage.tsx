@@ -50,7 +50,7 @@ const BlogDetailPage: React.FC = () => {
         ))}
       </div>
 
-      <Link to="/portfolio-pink/blog" className="text-primary hover:underline mt-6">
+      <Link to="/blog" className="text-primary hover:underline mt-6">
         ← Volver al blog
       </Link>
     </div>

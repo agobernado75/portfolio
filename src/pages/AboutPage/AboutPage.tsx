@@ -25,7 +25,9 @@ const AboutPage: React.FC<{}> = () => {
           {/* BOTONES */}
           <div className='w-[100%] mt-4 flex justify-center gap-2'>
             {/* Resume: descarga PDF */}
-            <TagLink active={false} href="/docs/CV25.pdf" label="Descarga CV" isRoute={false} />
+            
+            <TagLink active={true} href="/docs/CV25.pdf" label="Descargar CV" isRoute={false} download={true}/>
+
           
           </div>
           <div className='w-[100%] h-[200px]| flex justify-center gap-2 mt-2'>

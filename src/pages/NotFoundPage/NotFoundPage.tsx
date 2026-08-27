@@ -4,7 +4,7 @@ import { TagLink } from '../../components'
 
 const NotFoundPage:React.FC<{}> = () => {
   useEffect(() => {
-    document.title = "jose-luis | notfound";
+    document.title = "antonio gobernado | notfound";
   }, []);
 
   return (
@@ -20,7 +20,7 @@ const NotFoundPage:React.FC<{}> = () => {
                 Puedes ver algunas  <a className='link' href='https://www.google.com/search?q=cat+photos'>fotos de gatos</a>.  Disfruta del día!!!!!! :D
             </p>
             <div className='w-[100%]  mt-4 flex justify-start gap-2'>
-              <TagLink active={false} href='/portfolio-pink/' label='Return home' isRoute={true} />
+              <TagLink active={false} href='/' label='Return home' isRoute={true} />
             </div>
         </div>
  
