@@ -78,6 +78,81 @@ export const tagsBlog:string[] = [
 
 export const blogs: BlogType[] = [
     {
+        title: "Máquinas de Corte en la Industria: Tipos y Uso Seguro",
+        id: "maquinas-de-corte-industrial",
+        date: "Agosto 27, 2026",
+        description: "Las máquinas de corte son equipos imprescindibles en la industria, pero también una de las principales fuentes de accidentes graves. Conocer sus tipos, sus riesgos y las medidas preventivas adecuadas es esencial antes de cada uso.",
+        content: `
+Las **máquinas de corte** son equipos imprescindibles en prácticamente cualquier proceso industrial: construcción, metalurgia, automoción, madera, plásticos o textiles. Su capacidad para seccionar materiales con rapidez y precisión las convierte en herramientas muy productivas, pero también en una de las principales fuentes de accidentes graves y mortales. Un corte mal ejecutado, un resguardo retirado o un mantenimiento deficiente pueden provocar amputaciones, proyecciones de partículas o incendios. Por eso, conocer los tipos de máquinas de corte y aplicar las medidas preventivas es esencial antes de cada uso.
+
+## Principales Tipos de Máquinas de Corte
+
+Existen multitud de máquinas de corte según el material y el acabado deseado. Entre las más habituales en la industria se encuentran:
+
+- **Sierras circulares y de cinta**: para madera, metales ligeros y plásticos. De uso muy extendido en talleres.
+- **Amoladoras angulares o radiales**: cortadoras portátiles de gran versatilidad para metal y obra.
+- **Tronzadoras y cortadoras de disco**: fijas o de mesa, para cortes rectos y repetitivos de perfiles y tubos.
+- **Cizallas y guillotinas**: para chapa y lamina metálica, mediante presión y corte recto.
+- **Corte por láser**: alta precisión mediante haz de luz; genera radiación y humos.
+- **Corte por plasma y oxicorte**: para metales gruesos, con altas temperaturas y riesgo de incendio.
+- **Corte por chorro de agua**: frío y sin afectación térmica, pero con riesgo de alta presión.
+
+## Riesgos Asociados a las Máquinas de Corte
+
+Independientemente del tipo de máquina, los riesgos más frecuentes son:
+
+- **Cortes y amputaciones** por contacto con el elemento de corte o con piezas en movimiento.
+- **Proyecciones de partículas o fragmentos** del material, del disco o de la cuchilla.
+- **Atrapamiento** de ropa, guantes, cabello o extremidades en elementos giratorios.
+- **Contacto eléctrico** por equipos o cables en mal estado, sobre todo en ambientes húmedos.
+- **Incendio y explosión** por chispas, altas temperaturas o polvo combustible acumulado.
+- **Inhalación de polvo y humos** tóxicos que provocan enfermedades respiratorias.
+- **Daños por ruido y vibraciones** tras un uso prolongado y sin protecciones.
+
+## Medidas Preventivas y Uso Seguro
+
+### 1. Formación y autorización del operario
+- Solo debe manejar la máquina **personal formado y autorizado**.
+- El operario debe conocer el manual de instrucciones y las normas específicas de su puesto.
+- Nunca se debe retirar, anular o saltarse los **dispositivos de seguridad**.
+
+### 2. Verificación del equipo antes de cada uso
+- Comprobar que los **resguardos y protectores** están colocados y correctamente ajustados.
+- Revisar el estado de disco, cuchilla o elemento de corte: sin grietas, mellas ni señales de desgaste.
+- Verificar que la **velocidad máxima** del elemento de corte es compatible con la máquina.
+- Cable, enchufe, interruptor y **parada de emergencia** en perfecto estado.
+- Confirmar que la máquina está **desconectada** (bloqueo/señalización) durante el cambio de accesorio o el mantenimiento.
+
+### 3. Uso correcto durante el trabajo
+- Sujetar la pieza con garras, grapas o tornillo de banco, **nunca con la mano**.
+- Mantener una postura estable y usar la máquina con las dos manos cuando corresponda.
+- No forzar el corte ni hacer palanca: dejar que el disco o la cuchilla trabajen a su ritmo.
+- Aproximar la pieza al elemento de corte de forma controlada y sin brusquedad.
+- Trabajar en zonas **ventiladas** y alejar los materiales inflamables de la zona de chispas.
+- Mantener el área de trabajo limpia, ordenada y con buena iluminación.
+
+### 4. Equipos de Protección Individual (EPIs)
+- **Gafas o pantalla facial** frente a proyecciones y chispas.
+- **Guantes de seguridad** (no se usarán guantes sueltos cerca de elementos giratorios).
+- **Protectores auditivos**, ya que muchas máquinas superan los 85 dB.
+- **Mascarilla de protección respiratoria** contra polvo y humos.
+- Ropa de trabajo ajustada, sin elementos colgantes, y **calzado de seguridad**.
+
+### 5. Mantenimiento periódico
+- Seguir el plan de mantenimiento del fabricante y registrar las operaciones realizadas.
+- Sustituir los elementos de corte desgastados o dañados de inmediato.
+- Las reparaciones estructurales o eléctricas deben realizarlas **personal cualificado**.
+- Retirar y señalizar claramente cualquier máquina que presente deficiencias.
+
+## Conclusión
+
+Las máquinas de corte son herramientas muy valiosas para la industria, pero no admiten improvisación. La mayoría de los accidentes se producen por la retirada de los resguardos, un mal estado del elemento de corte, la falta de formación o una actitud imprudente. Con la máquina en buen estado, el elemento de corte adecuado, los EPIs puestos y el operario formado, el corte industrial puede realizarse con eficacia, precisión y, sobre todo, con seguridad.
+        `,
+        tags: ["seguridad", "industria"],
+        imagen: "https://tse4.mm.bing.net/th/id/OIP.x5KvN5zQkRvBqFJj5XgZXQHaE7?pid=Api&P=0&h=180",
+    },
+
+    {
         title: "Uso Seguro de la Radial (Amoladora Angular)",
         id: "uso-radial",
         date: "Agosto 27, 2026",
