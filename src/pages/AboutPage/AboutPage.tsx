@@ -59,7 +59,7 @@ const AboutPage: React.FC<{}> = () => {
                 <a className='link' href='https://www.sice.com'> SICE</a>, 
                 <a className='link' href='https://elpinar.eu/'> GRUPO EL PINAR</a>, 
                 <a className='link' href='https://www.ficosa.com/es/'> FICOSA</a>, 
-                <a className='link' href='https://www.artecenergy.es/'> ARTEC ENERGY</a>  y <a className='link' href='http://grupo-norte.es/'> GRUPO NORTE</a>. 
+                <a className='link' href='https://www.artecenergy.es/'> ARTEC ENERGY</a>. 
 
 
             </p>

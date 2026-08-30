@@ -5,7 +5,6 @@ import automovil from '../assets/images/automovil.png';
 import sice from '../assets/images/sice.png'; 
 import artec from '../assets/images/artec.png';
 import ficosa from '../assets/images/ficosa.png';
-import gnorte from '../assets/images/gnorte.png';
 import golpe from '../assets/images/golpe.jpeg'
 import carretillero from '../assets/images/carretillero.jpg'
 import gruas from '../assets/images/gruas.jpg'
@@ -427,22 +426,6 @@ description: `
 10. Gestionar los requerimientos de las Inspecciones de Trabajo de la Autoridad Laboral.`,
 tags: ["ARTEC ENERGY"],
 logo:artec,
-},
-{
-id: 4,
-title: "Técnico PRL Castilla y Leon",
-date: "Febrero, 2005",
-
-description: `
-1. Informes de evaluación de riesgos laborales de cada centro del cliente (IVECO, MICHELIN, BIBLIOTECA DE LEON, otros centros).  Investigación de accidentes laborales.
-2. Vigilancia de la Salud con Servicio de Prevencion Ajeno.
-3. Tramitación de partes de accidente por DELT@.
-4. Elaboración de planes de emergencia y puesta en marcha de simulacros.
-5. Formación en P.R.L a personal base y de estructura de la empresa.
-6. Coordinación de actividades empresariales con empresas visitantes.
-7. Evaluaciones específicas de higiene y ergonomía industrial, en especial Estudios Psicosociales.`,
-tags: ["GRUPO NORTE"],
-logo:gnorte,
 },
 
 {
