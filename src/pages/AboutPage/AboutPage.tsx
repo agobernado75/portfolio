@@ -26,7 +26,7 @@ const AboutPage: React.FC<{}> = () => {
           <div className='w-[100%] mt-4 flex justify-center gap-2'>
             {/* Resume: descarga PDF */}
             
-            <TagLink active={true} href="/docs/CV25.pdf" label="Descargar CV" isRoute={false} download={true}/>
+            <TagLink active={true} href="/docs/CV26.pdf" label="Descargar CV" isRoute={false} download={true}/>
 
           
           </div>
