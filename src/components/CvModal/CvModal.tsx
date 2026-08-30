@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { CV_PASSWORD, downloadCV } from '../../utils/cv';
+import { verifyPassword, downloadCV } from '../../utils/cv';
 
 interface Props {
   onClose: () => void;
@@ -11,7 +11,8 @@ const CvModal: React.FC<Props> = ({ onClose }) => {
   const [loading, setLoading] = useState(false);
 
   const handleDownload = async () => {
-    if (password !== CV_PASSWORD) {
+    const valid = await verifyPassword(password);
+    if (!valid) {
       setError(true);
       return;
     }
