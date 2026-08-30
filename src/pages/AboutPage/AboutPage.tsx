@@ -1,9 +1,11 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { yo } from '../../utils/assets';
 import { iconsList } from '../../utils/data';
-import { IconLink, TagLink } from '../../components';
+import { IconLink, TagLink, CvModal } from '../../components';
 
 const AboutPage: React.FC<{}> = () => {
+
+  const [showCvModal, setShowCvModal] = useState(false);
 
   useEffect(() => {
     document.title = "antonio gobernado | sobre mi";
@@ -24,9 +26,9 @@ const AboutPage: React.FC<{}> = () => {
           </div>
           {/* BOTONES */}
           <div className='w-[100%] mt-4 flex justify-center gap-2'>
-            {/* Resume: descarga PDF */}
+            {/* Resume: descarga PDF con contraseña */}
             
-            <TagLink active={true} href="/docs/CV26.pdf" label="Descargar CV" isRoute={false} download={true}/>
+            <TagLink active={true} href="#" label="Descargar CV" isRoute={false} onClick={() => setShowCvModal(true)}/>
 
           
           </div>
@@ -84,6 +86,7 @@ const AboutPage: React.FC<{}> = () => {
         </div>
         </div>
       </div>
+      {showCvModal && <CvModal onClose={() => setShowCvModal(false)} />}
     </div>
   );
 }
