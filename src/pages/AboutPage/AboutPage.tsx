@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { yo } from '../../utils/assets';
-import { iconsList } from '../../utils/data';
-import { IconLink, TagLink, CvModal } from '../../components';
+import { TagLink, CvModal } from '../../components';
 
 const AboutPage: React.FC<{}> = () => {
 
@@ -31,15 +30,6 @@ const AboutPage: React.FC<{}> = () => {
             <TagLink active={true} href="#" label="Descargar CV" isRoute={false} onClick={() => setShowCvModal(true)}/>
 
           
-          </div>
-          <div className='w-[100%] h-[200px]| flex justify-center gap-2 mt-2'>
-          {
-            iconsList.map((icon , index)=>{
-              return ( 
-                  <IconLink active={false} icon={icon.icon} href={icon.address}  title={icon.name}  key={index} />
-              )
-            })
-           }
           </div>
 
         </div>
