@@ -147,7 +147,7 @@ Independientemente del tipo de máquina, los riesgos más frecuentes son:
 Las máquinas de corte son herramientas muy valiosas para la industria, pero no admiten improvisación. La mayoría de los accidentes se producen por la retirada de los resguardos, un mal estado del elemento de corte, la falta de formación o una actitud imprudente. Con la máquina en buen estado, el elemento de corte adecuado, los EPIs puestos y el operario formado, el corte industrial puede realizarse con eficacia, precisión y, sobre todo, con seguridad.
         `,
         tags: ["seguridad", "industria"],
-        imagen: "https://tse4.mm.bing.net/th/id/OIP.x5KvN5zQkRvBqFJj5XgZXQHaE7?pid=Api&P=0&h=180",
+        imagen: "https://upload.wikimedia.org/wikipedia/commons/6/64/Cortadora_de_metal.JPG",
     },
 
     {
