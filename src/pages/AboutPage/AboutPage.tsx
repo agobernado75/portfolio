@@ -56,8 +56,7 @@ const AboutPage: React.FC<{}> = () => {
                 Mi experiencia abarca desde la implantacion y seguimiento de las medidas de prevención in site 
                 hasta la implementación de sistemas de gestión conforme a normativas como ISO 45001, todo con el objetivo de proteger la integridad física de los trabajadores.
                 En empresas tales como 
-                <a className='link' href='https://www.sice.com'> SICE</a>,  
-                <a className='link' href='https://www.vias.es/'>  VIAS Y CONSTRUCCIONES</a>.
+                <a className='link' href='https://www.sice.com'> SICE</a>, 
                 <a className='link' href='https://elpinar.eu/'> GRUPO EL PINAR</a>, 
                 <a className='link' href='https://www.ficosa.com/es/'> FICOSA</a>, 
                 <a className='link' href='https://www.artecenergy.es/'> ARTEC ENERGY</a>  y <a className='link' href='http://grupo-norte.es/'> GRUPO NORTE</a>. 

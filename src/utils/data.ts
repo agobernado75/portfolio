@@ -4,7 +4,6 @@ import elpinar from '../assets/images/elpinar.png';
 import automovil from '../assets/images/automovil.png';
 import sice from '../assets/images/sice.png'; 
 import artec from '../assets/images/artec.png';
-import vias from '../assets/images/vias.png';
 import ficosa from '../assets/images/ficosa.png';
 import gnorte from '../assets/images/gnorte.png';
 import golpe from '../assets/images/golpe.jpeg'
@@ -409,23 +408,7 @@ description: `
 tags: ["EL PINAR"],
 logo: elpinar,
 },
-{
-id: 2,
-title: "Tecnico Responsable PRL en obra Acceso Sur AVE PALENCIA",
-date: "Octubre, 2024",
 
-description: `
-1. Investigación de accidentes laborales e incidentes.
-2. Implantación de Medidas Preventivas en obra.Inducción y Charlas de Concienciación P.R.L a todos los trabajadores en obra. 
-3. Permisos trabajos de alta tensión y proximidad a catenaria. 
-4. Gestionar los requerimientos de las Inspecciones de Trabajo de la Autoridad Laboral.
-5. Coordinación de actividades empresariales con empresas subcontratistas.
-6. Liderar las visitas semanales con el Coordinador de Seguridad y Salud. 
-7. Seguimiento de las acciones propuestas por el Coordinador de Seguridad y Salud según RD 1627`,
-tags: ["VIAS Y CONSTRUCCIONES"],
-logo:vias,
-},
-    
 {
 id: 3,
 title: "Técnico Responsable HSE de obra en la Instalación de Planta Fotovoltaica de 50 MW en Toro (Zamora)",
